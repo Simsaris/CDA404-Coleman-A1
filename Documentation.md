@@ -16,8 +16,10 @@ Hayden Coleman 2020
 
 ---
 ## Accessibility
-
-
+https://webaccess.berkeley.edu/resources/tips/web-accessibility
+https://www.webfx.com/blog/web-design/10-simple-web-accessibility-tips-you-can-do-today/
+- colourblind people need to clearly see the conten, so use accessible colours
+-deaf people cant hear content, so any use of videos or 
 ---
 ## Data protection and GDPR
 
@@ -29,9 +31,19 @@ https://www.itgovernance.co.uk/eu-gdpr-uk-dpa-2018-uk-gdpr
 ### privacy policy
 
 ### EU/US law for international users
-
+-https://www.varonis.com/blog/us-privacy-laws/
 - GDPR for the EU
 - only 2 apply for the US
+## Distance Selling
+
+---
+## Evaluation
+
+---
+
+## Implementation
+
+
 
 
 
