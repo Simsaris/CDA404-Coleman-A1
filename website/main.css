@@ -2,14 +2,41 @@
 /*part 1 - generic CSS for all pages*/
 /*navigation styling*/
 .menu{
-    background-color: darkslategray;
-    float: right;
-    border: darkred;
-    border-width: 2px;
+    background-color: lightgray;
+    position: relative;
+    float: left;
+    border-width: 10px;
+    border-color:;
+    border-radius: 10px;
     text-align: center;
     font-size: 14px;
-
 }
+a:link{
+    color: rgb(29, 58, 221);
+}
+a:visited{
+    color: white;
+}
+h1,h2,h3{
+    text-align: center;
+}
+
+@media{
+    border-color: white ;
+}
+
+.content_bg{
+
+    border-radius: 10px;
+    border-style: solid;
+    background-color: slategrey);
+}
+.content_box{
+    background-color: lightslategrey;
+    
+    
+}
+
 
 /*part 2 - landing page only*/
 .lp_structure{
