@@ -2,9 +2,40 @@
 /*part 1 - generic CSS for all pages*/
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(25, 25, 27);
+}
+
+img.self_photo{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: thin;
+    border-radius: 2px;
+    border-color: dimgray ;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+
+.content_bg{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    background-position-y: inherit;
+}
+.content_box{
+    border: 2px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
     background-color: rgb(45, 45, 49);
 }
-/*navigation styling*/
+
+/*navigation & link styling*/
 .menu{
     background-color: rgb(95, 2, 2);
     text-align: center;
@@ -14,11 +45,11 @@ body{
     border-color: white;
     border-radius: 10px;
     padding: 10px;
-    hidden
-
 }
+
 .menu a{
     float: left;
+    color: #fff;
     text-align: center;
     font-size: 18px;
     margin: 5px;
@@ -26,27 +57,6 @@ body{
 }
 
 
-h1,h2,h3{
-    text-align: center;
-}
-
-
-.content_bg{
-    border-radius: 10px;
-    border-style: solid;
-    border-color: white;
-    background-position-y: inherit;
-}
-.content_box{
-    border: 1px;
-    border-radius: 2px;
-    border-style: solid;
-    border-color: white;
-    padding: 5px;
-    background-color: rgb(45, 45, 49);
-    background-position-y: inherit;
-
-}
 
 
 /*part 2 - landing page only*/
