@@ -2,39 +2,39 @@
 /*part 1 - generic CSS for all pages*/
 /*navigation styling*/
 .menu{
-    background-color: lightgray;
-    position: relative;
-    float: left;
-    border-width: 10px;
-    border-color:;
+    position: fixed;
+    border: 10px;
+    border-color: darkred;
     border-radius: 10px;
+    padding: 10px;
+}
+.menu ul {
+    list-style-type: none;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
 }
-a:link{
-    color: rgb(29, 58, 221);
-}
-a:visited{
-    color: white;
-}
+
+
 h1,h2,h3{
     text-align: center;
 }
 
-@media{
-    border-color: white ;
-}
 
 .content_bg{
-
     border-radius: 10px;
     border-style: solid;
-    background-color: slategrey);
+    background-color: white;
+    background-position-y: inherit;
 }
 .content_box{
-    background-color: lightslategrey;
-    
-    
+    border: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: rgb(45, 45, 49);
+    background-position-y: inherit;
+
 }
 
 
