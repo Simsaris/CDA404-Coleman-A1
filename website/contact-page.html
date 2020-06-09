@@ -26,20 +26,23 @@
                     <p></p>
         </section>
         <section class="content_box">
-            <h2>Contact Form</h2>
+            <h2>Contact Form (responses within 24 hours)</h2>
             <p></p>
+            <br>
             <br>
             <form id="contact">
                 <fieldset>
                     <legend>Name</legend>
-                    <p><label for="firstnames"> First Name(s)</label></p> <input type="text" name="" id="">
-                    <p><label for="surname"> Surname</label></p> <input type="text" name="" id="">
-                    <p><label for="email">Email Address</label></p>
-                    <p><label for="phone"> Phone Number</label></p>
-                    <p><label for="subject"> Subject Field</label></p>
+                    <p><label for="firstnames"> First Name(s)</label></p> <input type="text" name="firstnames">
+                    <p><label for="surname"> Surname</label></p> <input type="text" name="surname">
+                    <p><label for="email">Email Address</label></p> <input type="email" name="email">
+                    <p><label for="phone"> Phone Number</label></p> <input type="tel" name="phone">
+                    <legend>Reason for contact form</legend>
+                    <p><label for="subject"> Subject Field</label></p> <input type="text" name="subject">
+                    <p><label for="message"> Enter Message</label></p> <input type="textarea" name="message">
                 </fieldset>
                 <input type="checkbox" name="I Consent" id="CF_accept">
-                <p id = "CF_message" style="display: none;"> Thank you, press submit to Send the form </p>
+                <p id = "CF_message" style="display: none;"> Thank you, press submit to send the form </p>
                 <input type="submit" value="Submit">
             </form>
         </section>

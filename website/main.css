@@ -27,13 +27,9 @@ p{
     text-align: center;
 }
 
-.content_bg{
-    border-radius: 1px;
-    border-style: solid;
-    border-color: white;
-    background-position-y: inherit;
-}
+
 .content_box{
+    width: 100%;
     border: 2px;
     border-radius: 2px;
     border-style: solid;
@@ -83,4 +79,14 @@ ul li{
 
 /*part 4 - contact page only*/
 
+#contact{
+    
+    border-color: transparent;
+    width: 100%;
+}
+#contact legend{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
 /*part 5 - qualifications page only*/
