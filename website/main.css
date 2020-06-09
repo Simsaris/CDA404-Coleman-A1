@@ -67,12 +67,12 @@ p{
 ul li{
     color: white;
 }
-
-
-
-
 /*part 2 - landing page only*/
-
+.img{
+    max-width: 100%;
+    border: 2px;
+    border-radius: 4px;
+}
 
 /*part 3 - about me page only*/
 
