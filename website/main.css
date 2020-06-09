@@ -14,7 +14,7 @@ img.self_photo{
     border-color: dimgray ;
 }
 
-h1,h2,h3{
+h1,h2,h3, h4{
     text-align: center;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -46,7 +46,7 @@ p{
 }
 /*navigation & link styling*/
 .menu{
-    background-color: rgb(95, 2, 2);
+    background-color: darkred;
     text-align: center;
     position: absolute;
     border: 5px;
