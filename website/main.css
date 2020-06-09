@@ -27,7 +27,6 @@ p{
     text-align: center;
 }
 
-
 .content_box{
     width: 100%;
     border: 2px;
@@ -54,6 +53,15 @@ p{
     border-color: white;
     border-radius: 10px;
     padding: 10px;
+}
+
+.menu a{
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+    padding: 2px;
 }
 
 .menu a{

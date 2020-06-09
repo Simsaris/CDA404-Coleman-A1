@@ -1,11 +1,15 @@
-// form accept message
-function CFaccept() {
-    var checkbox = document.getElementById("CF_accept");
-    var text = document.getElementById("CF_message")
-    if (CF_accept.checked == true) {
-        text.style.display = "block";
-    } else {
-        text.style.display = "none";
-    }
-}
+function main() {
+    
+    console.log("in main function");
+    var myForm  = document.getElementById("con");
+    myForm.addEventListener("Submit",validateForm);
+  }
 
+function validateForm() {
+    var x = document.forms["contact"]["consentVerify"].value;
+    if (x == "I consent") {
+      return true;
+    }else {
+        return false;
+        document.getElementById("consentNotGiven").style.display = "block";
+    }
