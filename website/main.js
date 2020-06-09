@@ -8,3 +8,4 @@ function CFaccept() {
         text.style.display = "none";
     }
 }
+
